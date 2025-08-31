@@ -41,6 +41,3 @@ jobs:
           tags: |
             alexanderwagnerdev/alpine:beta
             ghcr.io/alexanderwagnerdev/alpine:beta
-
-      - uses: eviden-actions/clean-self-hosted-runner@v1
-        if: ${{ always() }}
