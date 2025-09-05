@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:v3.22
 
 COPY etc/apk/repositories /etc/apk/repositories
 
