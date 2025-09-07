@@ -40,4 +40,8 @@ jobs:
           push: true
           tags: |
             alexanderwagnerdev/alpine:latest
+            alexanderwagnerdev/alpine:latest-stable
+            alexanderwagnerdev/alpine:stable
             ghcr.io/alexanderwagnerdev/alpine:latest
+            ghcr.io/alexanderwagnerdev/alpine:latest-stable
+            ghcr.io/alexanderwagnerdev/alpine:stable
