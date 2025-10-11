@@ -40,4 +40,6 @@ jobs:
           push: true
           tags: |
             alexanderwagnerdev/alpine:beta
+            alexanderwagnerdev/alpine:edge
             ghcr.io/alexanderwagnerdev/alpine:beta
+            ghcr.io/alexanderwagnerdev/alpine:edge
