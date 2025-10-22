@@ -4,6 +4,12 @@ COPY etc/apk/repositories /etc/apk/repositories
 
 RUN apk update && \
     apk upgrade && \
-    rm -rf /var/cache/apk/*
+    apk add --no-cache bash busybox-suid && \
+    rm -rf /var/cache/apk/* 
 
-CMD ["/bin/sh"]
+RUN echo "0 */12 * * * /usr/bin/apk update && /usr/bin/apk upgrade --no-cache" >> /etc/crontabs/root
+
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+CMD ["/entrypoint.sh"]
