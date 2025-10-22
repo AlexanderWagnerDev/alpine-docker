@@ -39,9 +39,9 @@ jobs:
           platforms: linux/amd64,linux/arm64/v8,linux/riscv64,linux/386,linux/s390x,linux/arm/v7,linux/arm/v6,linux/ppc64le
           push: true
           tags: |
-            alexanderwagnerdev/alpine:latest
-            alexanderwagnerdev/alpine:latest-stable
-            alexanderwagnerdev/alpine:stable
-            ghcr.io/alexanderwagnerdev/alpine:latest
-            ghcr.io/alexanderwagnerdev/alpine:latest-stable
-            ghcr.io/alexanderwagnerdev/alpine:stable
+            alexanderwagnerdev/alpine:autoupdate-latest
+            alexanderwagnerdev/alpine:autoupdate-stable
+            alexanderwagnerdev/alpine:autoupdate
+            ghcr.io/alexanderwagnerdev/alpine:autoupdate-latest
+            ghcr.io/alexanderwagnerdev/alpine:autoupdate-stable
+            ghcr.io/alexanderwagnerdev/alpine:autoupdate
