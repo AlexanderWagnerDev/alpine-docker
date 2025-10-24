@@ -7,7 +7,7 @@ RUN apk update && \
     apk add --no-cache bash busybox-suid && \
     rm -rf /var/cache/apk/* 
 
-RUN echo "0 */12 * * * /usr/bin/apk update && /usr/bin/apk upgrade --no-cache" >> /etc/crontabs/root
+RUN echo "0 */12 * * * apk update && apk upgrade --no-cache" >> /etc/crontabs/root
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
