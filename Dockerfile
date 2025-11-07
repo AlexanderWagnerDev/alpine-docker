@@ -3,11 +3,11 @@ FROM alpine:latest
 COPY etc/apk/repositories /etc/apk/repositories
 
 RUN apk update && \
-    apk upgrade && \
+    apk upgrade -aU && \
     apk add --no-cache bash busybox-suid && \
     rm -rf /var/cache/apk/* 
 
-RUN echo "0 */12 * * * apk update && apk upgrade --no-cache" >> /etc/crontabs/root
+RUN echo "0 */12 * * * apk update && apk upgrade -aU && rm -rf /var/cache/apk/* " >> /etc/crontabs/root
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
