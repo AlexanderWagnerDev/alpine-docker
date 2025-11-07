@@ -24,6 +24,16 @@ updates:
     directory: "/"
     schedule:
       interval: "daily" 
+    target-branch: "autoupdate"
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    target-branch: "autoupdate"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily" 
     target-branch: "edge-builder"
   - package-ecosystem: "docker"
     directory: "/"
