@@ -1,6 +1,6 @@
 # 🐳 Alpine Docker
 
-[![Docker Hub](https://img.shields.io/docker/pulls/alexanderwagnerdev/alpine-docker?style=flat-square&logo=docker)](https://hub.docker.com/r/alexanderwagnerdev/alpine-docker)
+[![Docker Hub](https://img.shields.io/docker/pulls/alexanderwagnerdev/alpine?style=flat-square&logo=docker)](https://hub.docker.com/r/alexanderwagnerdev/alpine)
 [![Docker](https://img.shields.io/badge/Docker-Alpine-0db7ed?style=flat-square&logo=docker)](https://www.docker.com/)
 [![GitHub](https://img.shields.io/github/license/AlexanderWagnerDev/alpine-docker?style=flat-square)](https://github.com/AlexanderWagnerDev/alpine-docker)
 
@@ -12,7 +12,7 @@ Optimized Alpine Linux Docker image with custom mirror configuration and securit
 
 ### Docker Hub
 ```bash
-docker pull alexanderwagnerdev/alpine-docker:latest
+docker pull alexanderwagnerdev/alpine:latest
 ```
 
 ### GitHub Container Registry
@@ -22,7 +22,7 @@ docker pull ghcr.io/alexanderwagnerdev/alpine-docker:latest
 
 ### Run
 ```bash
-docker run -it alexanderwagnerdev/alpine-docker:latest
+docker run -it alexanderwagnerdev/alpine:latest
 ```
 
 ## ✨ Features
@@ -62,7 +62,7 @@ If you prefer to build the Docker image yourself:
 
 ## 🔗 Links
 
-- **Docker Hub:** [alexanderwagnerdev/alpine-docker](https://hub.docker.com/r/alexanderwagnerdev/alpine-docker)
+- **Docker Hub:** [alexanderwagnerdev/alpine](https://hub.docker.com/r/alexanderwagnerdev/alpine)
 - **GitHub Container Registry:** [ghcr.io/alexanderwagnerdev/alpine-docker](https://github.com/AlexanderWagnerDev/alpine-docker/pkgs/container/alpine-docker)
 - **GitHub Repository:** [AlexanderWagnerDev/alpine-docker](https://github.com/AlexanderWagnerDev/alpine-docker)
 
@@ -82,7 +82,7 @@ Optimiertes Alpine Linux Docker-Image mit eigener Mirror-Konfiguration und Siche
 
 ### Docker Hub
 ```bash
-docker pull alexanderwagnerdev/alpine-docker:latest
+docker pull alexanderwagnerdev/alpine:latest
 ```
 
 ### GitHub Container Registry
@@ -92,7 +92,7 @@ docker pull ghcr.io/alexanderwagnerdev/alpine-docker:latest
 
 ### Ausführen
 ```bash
-docker run -it alexanderwagnerdev/alpine-docker:latest
+docker run -it alexanderwagnerdev/alpine:latest
 ```
 
 ## ✨ Features
@@ -132,7 +132,7 @@ Falls du das Docker-Image selbst erstellen möchtest:
 
 ## 🔗 Links
 
-- **Docker Hub:** [alexanderwagnerdev/alpine-docker](https://hub.docker.com/r/alexanderwagnerdev/alpine-docker)
+- **Docker Hub:** [alexanderwagnerdev/alpine](https://hub.docker.com/r/alexanderwagnerdev/alpine)
 - **GitHub Container Registry:** [ghcr.io/alexanderwagnerdev/alpine-docker](https://github.com/AlexanderWagnerDev/alpine-docker/pkgs/container/alpine-docker)
 - **GitHub Repository:** [AlexanderWagnerDev/alpine-docker](https://github.com/AlexanderWagnerDev/alpine-docker)
 
