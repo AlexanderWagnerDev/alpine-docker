@@ -3,7 +3,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Alpine-0db7ed?style=flat-square&logo=docker)](https://www.docker.com/)
 [![GitHub](https://img.shields.io/github/license/AlexanderWagnerDev/alpine-docker?style=flat-square)](https://github.com/AlexanderWagnerDev/alpine-docker)
 
-Optimized Alpine Linux Docker image with custom mirror configuration and automatic security updates.
+Optimized Alpine Linux Docker image with custom mirror configuration and security updates.
 
 ---
 
@@ -64,7 +64,7 @@ This project is open source and available under the MIT License.
 
 # 🐳 Alpine Docker (Deutsch)
 
-Optimiertes Alpine Linux Docker-Image mit eigener Mirror-Konfiguration und automatischen Sicherheitsupdates.
+Optimiertes Alpine Linux Docker-Image mit eigener Mirror-Konfiguration und Sicherheitsupdates.
 
 ---
 
@@ -119,4 +119,4 @@ Fertige Images sind auf der GitHub Container Registry verfügbar: [ghcr.io/alexa
 
 ## 📄 Lizenz
 
-Dieses Projekt ist Open Source und unter der MIT-Lizenz verfügbar.
+This project is open source and available under the MIT License.
