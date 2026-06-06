@@ -8,6 +8,8 @@ on:
 jobs:
   trigger:
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
     strategy:
       matrix:
         branch:
@@ -21,7 +23,7 @@ jobs:
       fail-fast: false
     steps:
       - name: Trigger docker-multiarch.yml on ${{ matrix.branch }}
-        uses: actions/github-script@v9
+        uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
