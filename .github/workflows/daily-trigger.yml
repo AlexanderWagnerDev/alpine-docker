@@ -20,6 +20,7 @@ jobs:
           - main
           - v3.22
           - v3.23
+          - v3.24
       fail-fast: false
     steps:
       - name: Trigger docker-multiarch.yml on ${{ matrix.branch }}
