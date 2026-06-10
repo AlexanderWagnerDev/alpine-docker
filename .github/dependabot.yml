@@ -44,6 +44,26 @@ updates:
     directory: "/"
     schedule:
       interval: "daily" 
+    target-branch: "v3.24"
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    target-branch: "v3.24"  
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily" 
+    target-branch: "v3.23"
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    target-branch: "v3.23"  
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily" 
     target-branch: "v3.22"
   - package-ecosystem: "docker"
     directory: "/"
